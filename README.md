@@ -18,12 +18,14 @@ RichCord is a powerful tool that enables you to showcase your activities and sta
 ## Features
 
 - [x] Real-time presence updates
-- [ ] Support for application-based presences
-- [ ] Profile sharing
 - [x] Starter templates
 - [x] GIF support
+- [x] Custom image upload
+- [x] Custom buttons
 - [x] Real-time clock
 - [x] Changeable title
+- [ ] Support for application-based presences
+- [ ] Profile sharing
 - [ ] Themes
 - [ ] Cycling statuses
 - [ ] Account syncing
@@ -31,11 +33,9 @@ RichCord is a powerful tool that enables you to showcase your activities and sta
 - [ ] PC info display
 - [ ] System resource usage
 - [ ] Website display
-- [x] Custom image upload
 - [ ] Soundcloud integration
 - [ ] YouTube integration
 - [ ] Twitch integration
-- [x] Custom buttons
 - [ ] Idle time display
 - [ ] AFK display
 - [ ] Rich Presence scheduling
