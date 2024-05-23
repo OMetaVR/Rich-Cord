@@ -54,10 +54,12 @@ RichCord is a powerful tool that enables you to showcase your activities and sta
 
 To set up RichCord, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/richcord.git`
+1. Clone the repository: `git clone https://github.com/OMetaVR/Rich-Cord`
 2. Install the dependencies: `npm install`
 3. Build the application: `npm run build`
 4. Start the application: `npm start`
+
+Alternatively I'll provide a compiled and installable version in the [releases](https://github.com/OMetaVR/Rich-Cord) page
 
 ## Contributing
 
