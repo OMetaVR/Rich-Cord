@@ -17,13 +17,13 @@ RichCord is a powerful tool that enables you to showcase your activities and sta
 
 ## Features
 
-- [x] Real-time presence updates
-- [x] Starter templates
-- [x] GIF support
-- [x] Custom image upload
-- [x] Custom buttons
-- [x] Real-time clock
-- [x] Changeable title
+- [ ] Real-time presence updates
+- [ ] Starter templates
+- [ ] GIF support
+- [ ] Custom image upload
+- [ ] Custom buttons
+- [ ] Real-time clock
+- [ ] Changeable title
 - [ ] Support for application-based presences
 - [ ] Profile sharing
 - [ ] Themes
