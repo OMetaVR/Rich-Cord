@@ -1,6 +1,6 @@
 # Rich-Cord
 
-![RichCord Logo](path/to/logo.png)
+![RichCord Logo](Banner.png)
 
 RichCord is a lightweight and highly customizable Electron-based Discord RPC (Rich Presence) tool. It allows you to create and display rich presence information on your Discord profile.
 
