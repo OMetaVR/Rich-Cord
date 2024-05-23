@@ -1,0 +1,20 @@
+{
+  "name": "Rich-Cord",
+  "version": "0.0.1",
+  "description": "An open source electron RPC builder.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "ui",
+    "discord",
+    "free",
+    "status"
+  ],
+  "author": "Meta",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^29.1.5"
+  }
+}
