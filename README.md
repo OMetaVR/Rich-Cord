@@ -1,4 +1,4 @@
-# RichCord
+# Rich-Cord
 
 ![RichCord Logo](path/to/logo.png)
 
