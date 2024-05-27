@@ -1,13 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rich-Cord</title>
 </head>
 <body>
-
+  <nav class="titlebar">
+    <div class="titlebar-logo">
+      <img src="../assets/Logo.png" alt="Logo">
+      <span>Disconnect</span>
+    </div>
+    <div class="titlebar-controls">
+      <button class="titlebar-control minimize"></button>
+      <button class="titlebar-control maximize"></button>
+      <button class="titlebar-control close"></button>
+    </div>
+  </nav>
+  <nav class="navbar">
+    <button class="navbar-button">
+      <i class="fas fa-home"></i>
+    </button>
+    <button class="navbar-button">
+      <i class="fas fa-sliders-h"></i>
+    </button>
+    <button class="navbar-button">
+      <i class="fas fa-user"></i>
+    </button>
+  </nav>
+  <div id="content" class="content">
+    <div id="homeContent" class="tab-content">
+      <div class="home-message">
+        <p>It looks like you don't have any presences made yet.</p>
+        <p>Click the button below to get started!</p>
+      </div>
+      <div class="home-button">
+        <button id="createPresenceButton" class="circular-button">
+          <i class="fas fa-plus"></i>
+        </button>
+      </div>
+    </div>
+    
+    <div id="customizeContent" class="tab-content">
+      <h1>Customize Page</h1>
+      <p>Here you can customize your settings.</p>
+    </div>
+    
+    <div id="profileContent" class="tab-content">
+      <h1>User Profile</h1>
+      <p>Please enter your token and password to access additional features.</p>
+      <p><em>Note: Entering this information is optional and only grants access to features like title manipulation.</em></p>
+      
+      <form id="loginForm">
+        <div class="form-group">
+          <label for="tokenInput">Token:</label>
+          <input type="text" id="tokenInput" name="token" placeholder="Enter your token">
+        </div>
+        <div class="form-group">
+          <label for="passwordInput">Password:</label>
+          <input type="password" id="passwordInput" name="password" placeholder="Enter your password">
+        </div>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </div>
 </body>
 <script src="script.js"></script>
 </html>
